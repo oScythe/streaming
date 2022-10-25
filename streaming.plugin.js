@@ -1,7 +1,7 @@
 /**
  * @name Streaming
  * @description This plugin enables the 1080p 60FPS streaming feature which is only available for Nitro users.
- * @version 1.0.1
+ * @version 1.0.0
  * @author OBNinjaa
  * @updateUrl https://oscythe.github.io/streaming/streaming.plugin.js
  */
@@ -12,7 +12,7 @@ const config = {
     name: "Streaming",
     id: "streaming",
     description: "This plugin enables the 1080p 60FPS streaming feature which is only available for Nitro users.",
-    version: "1.0.1",
+    version: "1.0.0",
     author: "OBNinjaa",
     updateUrl: "https://oscythe.github.io/streaming/streaming.plugin.js",
   },
@@ -34,15 +34,6 @@ module.exports = class test {
 
   load() {}
   start() {
-    BdApi.showNotice(`There is a new version of ${config.info.name} ready to update!`, {
-      type: "error",
-      buttons: [
-        {
-          label: "Manual Update",
-          onClick: () => window.open("https://oscythe.github.io/streaming/streaming.plugin.js"),
-        },
-      ],
-    });
     window.webpackChunkdiscord_app.push([
       [Math.random()],
       {},
