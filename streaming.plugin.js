@@ -1,7 +1,7 @@
 /**
  * @name Streaming
  * @description This plugin enables the 1080p 60FPS streaming feature which is only available for Nitro users.
- * @version 1.0.0
+ * @version 1.0.1
  * @author OBNinjaa
  * @updateUrl https://oscythe.github.io/streaming/streaming.plugin.js
  */
